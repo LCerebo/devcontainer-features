@@ -3,6 +3,10 @@
     "id": "lazyvim",
     "version": "1.0.0",
     "description": "Install LazyVim starter config for Neovim",
+    "dependsOn": {
+        "ghcr.io/devcontainers/features/git": {},
+        "ghcr.io/devcontainers-extra/features/curl-apt-get:1": {}
+    },
     "installsAfter": [
         "ghcr.io/devcontainers/features/common-utils"
     ]
