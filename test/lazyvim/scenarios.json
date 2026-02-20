@@ -1,0 +1,18 @@
+{
+    "lazyvim": {
+        "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+        "features": {
+            "lazyvim": {
+                "nvim_version": "stable"
+            }
+        }
+    },
+    "lazyvim-nightly": {
+        "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+        "features": {
+            "lazyvim": {
+                "nvim_version": "nightly"
+            }
+        }
+    }
+}

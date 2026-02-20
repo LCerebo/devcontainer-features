@@ -6,15 +6,17 @@ Installs the LazyVim starter configuration for Neovim.
 
 ```json
 "features": {
-    "ghcr.io/devcontainers/feature-starter/lazyvim:1": {}
+    "ghcr.io/devcontainers/feature-starter/lazyvim:1": {
+        "nvim_version": "stable"
+    }
 }
 ```
 
 ## Options
 
-| Options Id | Description | Type   | Default Value |
-|------------|-------------|--------|---------------|
-| _none_     | _none_      | _none_ | _none_        |
+| Options Id   | Description                                            | Type   | Default Value |
+| ------------ | ------------------------------------------------------ | ------ | ------------- |
+| nvim_version | Neovim version passed to the neovim-prebuilt feature. | string | stable        |
 
 ---
 

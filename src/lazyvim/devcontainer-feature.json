@@ -3,9 +3,19 @@
     "id": "lazyvim",
     "version": "1.0.0",
     "description": "Install LazyVim starter config for Neovim",
+    "options": {
+        "nvim_version": {
+            "type": "string",
+            "default": "stable",
+            "description": "Neovim version passed to the neovim-prebuilt feature."
+        }
+    },
     "dependsOn": {
         "ghcr.io/devcontainers/features/git": {},
-        "ghcr.io/devcontainers-extra/features/curl-apt-get:1": {}
+        "ghcr.io/devcontainers-extra/features/curl-apt-get:1": {},
+        "ghcr.io/marcosbolanos/devcontainer-features/neovim-prebuilt": {
+            "version": "${nvim_version}"
+        }
     },
     "installsAfter": [
         "ghcr.io/devcontainers/features/common-utils"
