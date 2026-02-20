@@ -15,7 +15,11 @@
         "ghcr.io/devcontainers-extra/features/curl-apt-get:1": {},
         "ghcr.io/marcosbolanos/devcontainer-features/neovim-prebuilt": {
             "version": "${nvim_version}"
-        }
+        },
+        "ghcr.io/devcontainers-extra/features/ripgrep:1": {},
+        "ghcr.io/devcontainers-extra/features/fzf:1": {},
+        "ghcr.io/GeorgOfenbeck/features/lazygit-linuxbinary:1": {},
+        "ghcr.io/devcontainers-extra/features/fd:1": {},
     },
     "installsAfter": [
         "ghcr.io/devcontainers/features/common-utils"
