@@ -4,7 +4,7 @@ set -e
 echo "Installing lazyvim configuration"
 target_user="${_REMOTE_USER:-${USER}}"
 target_home="${_REMOTE_USER_HOME:-${HOME}}"
-required_tools="git curl gcc make"
+required_tools="git curl gcc make trash-cli ghostscript texlive-latex-base"
 
 check_command() {
   if ! command -v "$1" >/dev/null 2>&1; then
@@ -35,6 +35,8 @@ install_missing_tools() {
 }
 
 install_missing_tools
+
+npm install -g tree-sitter-cli @mermaid-js/mermaid-cli
 
 git clone https://github.com/LazyVim/starter "${target_home}/.config/nvim"
 rm -rf "${target_home}/.config/nvim/.git"
