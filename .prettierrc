@@ -1,0 +1,12 @@
+{
+  "overrides": [
+    {
+      "files": ["*.json", "**/*.json"],
+      "options": {
+        "tabWidth": 4,
+        "plugins": ["prettier-plugin-multiline-arrays"],
+        "multilineArraysWrapThreshold": 1
+      }
+    }
+  ]
+}
