@@ -1,0 +1,21 @@
+{
+    "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+    "features": {
+        "ghcr.io/devcontainers-extra/features/age:1": {},
+        "ghcr.io/devcontainers/features/git": {},
+        "ghcr.io/devcontainers-extra/features/curl-apt-get:1": {},
+        "ghcr.io/devcontainers-extra/features/tmux-apt-get:1": {},
+        "ghcr.io/devcontainers-extra/features/gitmux:1": {},
+        "ghcr.io/engma324/devcontainer-features/persistent-home:1": {},
+        "ghcr.io/engma324/devcontainer-features/opencode:1": {},
+        "../features/lazyvim": {}
+    },
+    "remoteUser": "vscode",
+    "mounts": [
+        {
+            "source": "${localEnv:HOME}${localEnv:USERPROFILE}/.ssh",
+            "target": "/home/vscode/.ssh",
+            "type": "bind"
+        }
+    ]
+}
