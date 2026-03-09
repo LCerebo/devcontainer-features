@@ -1,0 +1,16 @@
+{
+    "name": "Personal",
+    "id": "personal",
+    "version": "1.0.0",
+    "description": "Install personal tools for devcontainers.",
+    "dependsOn": {
+        "ghcr.io/devcontainers-extra/features/age:1": {},
+        "ghcr.io/devcontainers/features/git": {},
+        "ghcr.io/devcontainers-extra/features/curl-apt-get:1": {},
+        "ghcr.io/devcontainers-extra/features/tmux-apt-get:1": {},
+        "ghcr.io/devcontainers-extra/features/gitmux:1": {},
+        "ghcr.io/engma324/devcontainer-features/persistent-home:1": {},
+        "ghcr.io/engma324/devcontainer-features/opencode:1": {},
+        "ghcr.io/LCerebo/devcontainer-features/lazyvim:1": {}
+    }
+}
