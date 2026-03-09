@@ -9,7 +9,7 @@
         "prepare": "husky"
     },
     "lint-staged": {
-        "**/*.json": [
+        "**/*.{json,md,js,cjs,mjs,ts,cts,mts,jsx,tsx,yml,yaml,css,scss,less,html,mdx,graphql,gql}": [
             "prettier --write"
         ]
     }

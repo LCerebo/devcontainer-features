@@ -7,6 +7,13 @@
         "plugins": ["prettier-plugin-multiline-arrays"],
         "multilineArraysWrapThreshold": 1
       }
+    },
+    {
+      "files": ["*.md", "**/*.md"],
+      "options": {
+        "printWidth": 80,
+        "proseWrap": "always"
+      }
     }
   ]
 }
