@@ -1,7 +1,7 @@
 {
     "name": "LazyVim",
     "id": "lazyvim",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Install LazyVim starter config for Neovim",
     "options": {
         "nvim_version": {

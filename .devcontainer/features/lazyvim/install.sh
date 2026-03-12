@@ -41,4 +41,4 @@ npm install -g tree-sitter-cli @mermaid-js/mermaid-cli
 git clone https://github.com/LazyVim/starter "${target_home}/.config/nvim"
 rm -rf "${target_home}/.config/nvim/.git"
 
-chown -R "${target_user}:${target_user}" "${target_home}/.config/nvim"
+chown -R "${target_user}:${target_user}" "${target_home}/.config"
