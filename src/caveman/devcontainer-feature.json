@@ -1,0 +1,12 @@
+{
+    "name": "Caveman",
+    "id": "caveman",
+    "version": "1.0.0",
+    "description": "Install caveman using the upstream installer script.",
+    "dependsOn": {
+        "ghcr.io/devcontainers/features/node:1": {}
+    },
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/common-utils"
+    ]
+}
